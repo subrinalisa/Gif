@@ -1,4 +1,4 @@
-<h2>Movie Website</h2>
+<h2>Gif Club</h2>
 <p>It is a demo giphy website. User can find latest or top rated gif or stiker in here.</p>
 <h2>How to run the app</h2>
 <ul>
