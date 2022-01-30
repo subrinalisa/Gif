@@ -7,7 +7,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #202020;
-  background: #202020;
+  background: url(../images/bg.jpg) no-repeat center/cover;
   min-height: 100vh;
   position: relative;
 }
@@ -392,10 +392,6 @@ Scroll Up
 /*--------------------------------------------------------------------
 Header
 ---------------------------------------------------------------------*/
-header {
-  background: url(../images/bg.jpg) no-repeat center/cover;
-}
-
 .navigation-wrapper {
   padding: 16px 0;
 }
@@ -417,6 +413,17 @@ header {
 
 .navigation-wrapper form {
   margin-left: 20px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.logo img {
+  width: 40px;
+  margin-right: 16px;
 }
 
 .banner {
@@ -471,7 +478,7 @@ section {
   color: #fff;
   margin-top: 20px;
   background: transparent;
-  border: none;
+  border: 1px solid #d5d5d5;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -481,8 +488,19 @@ section {
   z-index: 1;
 }
 
+.single .card figure {
+  background: #202020;
+}
+
+.single .card figure img {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
 .single .card-body {
-  background: rgba(0, 0, 0, 0.1);
+  background: #202020;
+  border-top: 1px solid #d5d5d5;
 }
 
 .single .card-body .name {
